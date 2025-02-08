@@ -1,0 +1,15 @@
+jupyterlab
+scikit-image
+matplotlib
+ruff
+
+numpy==1.25.0
+tensorboard
+timm
+opencv-python==4.10.0.82
+easydict
+wget
+scikit-image
+fairscale
+tqdm
+einops

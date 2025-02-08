@@ -1,0 +1,3 @@
+[submodule "DiffMatte"]
+	path = DiffMatte
+	url = https://github.com/YihanHu-2022/DiffMatte.git
