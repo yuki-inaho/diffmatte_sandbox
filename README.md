@@ -11,6 +11,7 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git'
 # デモコード実行例
 
 ```
+cd DiffMatte
 python run_one_image.py \
     --config-file ViTS_1024 \
     --checkpoint-dir ../checkpoints/DiffMatte_ViTS_Com_1024.pth \
