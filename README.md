@@ -1,4 +1,4 @@
-# Install
+# 依存ライブラリのインストール
 
 ```
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu11
@@ -6,12 +6,9 @@ pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-u
 git submodule update --init --recursive
 pip install -r requirements.txt
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
-
-cd DiffMatte
-pip install -r requirements.txt
 ```
 
-# デモコード
+# デモコード実行例
 
 ```
 python run_one_image.py \
@@ -26,4 +23,4 @@ python run_one_image.py \
 
 # 参考 issue
 
-https://github.com/YihanHu-2022/DiffMatte/issues/5
+- <https://github.com/YihanHu-2022/DiffMatte/issues/5>
